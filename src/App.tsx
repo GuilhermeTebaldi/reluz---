@@ -195,28 +195,23 @@ export default function BeautySalon() {
           Marli Aparecida
         </h1>
 
-        <div className="z-20 h-40 w-40 overflow-hidden rounded-full shadow-xl sm:h-56 sm:w-56 md:h-72 md:w-72">
-          <div className="absolute left-[15%] top-[30%] h-40 w-40 overflow-hidden rounded-full shadow-lg">
-            <img
-              src="https://i.pinimg.com/736x/c1/76/47/c176472332d1b1424ceeca24dbfd6f5e.jpg"
-              alt="Produto"
-              className="h-full w-full object-cover"
-            />
-          </div>
-          <div className="z-20 h-40 w-40 overflow-hidden rounded-full shadow-xl sm:h-56 sm:w-56 md:h-72 md:w-72">
-            <img
-              src="https://i.pinimg.com/736x/c3/16/40/c31640fbb50836c93e69e80a7f219051.jpg"
-              alt="Corte"
-              className="h-full w-full object-cover"
-            />
-          </div>
-          <div className="z-20 h-40 w-40 overflow-hidden rounded-full shadow-xl sm:h-56 sm:w-56 md:h-72 md:w-72">
-            <img
-              src="https://i.pinimg.com/736x/9f/35/76/9f357619b7150a301e3952d6184f35ea.jpg"
-              alt="Escova"
-              className="h-full w-full object-cover"
-            />
-          </div>
+        <div className="relative z-20 mb-10 flex flex-wrap justify-center gap-6">
+          {[
+            "https://i.pinimg.com/736x/c1/76/47/c176472332d1b1424ceeca24dbfd6f5e.jpg",
+            "https://i.pinimg.com/736x/c3/16/40/c31640fbb50836c93e69e80a7f219051.jpg",
+            "https://i.pinimg.com/736x/9f/35/76/9f357619b7150a301e3952d6184f35ea.jpg",
+          ].map((url, index) => (
+            <div
+              key={index}
+              className="h-32 w-32 overflow-hidden rounded-full shadow-lg sm:h-40 sm:w-40 md:h-48 md:w-48"
+            >
+              <img
+                src={url}
+                alt={`Imagem ${index + 1}`}
+                className="h-full w-full object-cover"
+              />
+            </div>
+          ))}
         </div>
 
         <motion.button
