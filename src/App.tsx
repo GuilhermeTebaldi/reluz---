@@ -195,7 +195,7 @@ export default function BeautySalon() {
           Marli Aparecida
         </h1>
 
-        <div className="relative z-10 mb-20 flex w-full max-w-4xl items-center justify-center">
+        <div className="z-20 h-40 w-40 overflow-hidden rounded-full shadow-xl sm:h-56 sm:w-56 md:h-72 md:w-72">
           <div className="absolute left-[15%] top-[30%] h-40 w-40 overflow-hidden rounded-full shadow-lg">
             <img
               src="https://i.pinimg.com/736x/c1/76/47/c176472332d1b1424ceeca24dbfd6f5e.jpg"
@@ -210,7 +210,7 @@ export default function BeautySalon() {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="absolute right-[15%] top-[30%] h-40 w-40 overflow-hidden rounded-full shadow-lg">
+          <div className="z-20 h-40 w-40 overflow-hidden rounded-full shadow-xl sm:h-56 sm:w-56 md:h-72 md:w-72">
             <img
               src="https://i.pinimg.com/736x/9f/35/76/9f357619b7150a301e3952d6184f35ea.jpg"
               alt="Escova"
@@ -276,7 +276,8 @@ export default function BeautySalon() {
 
           {/* Grid scrollável com produtos filtrados */}
           <div className="flex-1 overflow-y-auto px-6 pb-10">
-            <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+
               {filteredProducts.map((product, index) => (
                 <motion.div
                   key={index}
@@ -287,8 +288,8 @@ export default function BeautySalon() {
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="h-40 w-full object-cover"
-                  />
+                    className="h-32 sm:h-40 w-full object-cover"
+
                   <div className="p-3 text-center text-sm font-medium text-gray-800 md:text-base">
                     {product.name}
                   </div>
@@ -310,7 +311,8 @@ export default function BeautySalon() {
       )}
       {zoomedProduct && (
         <div className="fixed inset-0 z-[99999] flex items-center justify-center bg-black/70 backdrop-blur-sm">
-          <div className="relative w-full max-w-md rounded-lg bg-white shadow-lg">
+          <div className="relative bg-white font-sans text-gray-900" style={{ overflowX: "hidden" }}>
+
             <button
               onClick={() => setZoomedProduct(null)}
               className="absolute right-3 top-2 text-xl text-gray-800 hover:text-red-500"
