@@ -167,7 +167,7 @@ export default function BeautySalon() {
             Instagram
           </a>
           <a
-            href="https://wa.me/551234567890"
+            href="https://wa.me/5547999678478"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline"
