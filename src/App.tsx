@@ -152,7 +152,10 @@ export default function BeautySalon() {
     "",
   ];
   return (
-    <div className="relative bg-white font-sans text-gray-900">
+    <div
+      className="relative bg-white font-sans text-gray-900"
+      style={{ overflowX: "hidden" }}
+    >
       <header className="fixed left-0 top-0 z-[9999] flex w-full items-center justify-between bg-white/30 px-6 py-3 shadow-sm backdrop-blur-md">
         <h1 className="text-xl font-bold tracking-wide text-gray-800">
           Reluz Estylos & Beleza
@@ -188,7 +191,7 @@ export default function BeautySalon() {
         <h2 className="relative z-10 mb-2 text-sm uppercase tracking-widest text-gray-600">
           Estudio de Beleza
         </h2>
-        <h1 className="relative z-10 mb-10 font-serif text-6xl font-bold text-black">
+        <h1 className="relative z-10 mb-10 font-serif text-3xl font-bold text-black sm:text-4xl md:text-6xl">
           Marli Aparecida
         </h1>
 
@@ -200,7 +203,7 @@ export default function BeautySalon() {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="z-20 h-72 w-72 overflow-hidden rounded-full shadow-xl">
+          <div className="z-20 h-40 w-40 overflow-hidden rounded-full shadow-xl sm:h-56 sm:w-56 md:h-72 md:w-72">
             <img
               src="https://i.pinimg.com/736x/c3/16/40/c31640fbb50836c93e69e80a7f219051.jpg"
               alt="Corte"
