@@ -277,7 +277,6 @@ export default function BeautySalon() {
           {/* Grid scrollável com produtos filtrados */}
           <div className="flex-1 overflow-y-auto px-6 pb-10">
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-
               {filteredProducts.map((product, index) => (
                 <motion.div
                   key={index}
@@ -288,11 +287,13 @@ export default function BeautySalon() {
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="h-32 sm:h-40 w-full object-cover"
+                    className="h-32 w-full object-cover sm:h-40"
+                  />
 
                   <div className="p-3 text-center text-sm font-medium text-gray-800 md:text-base">
                     {product.name}
                   </div>
+
                   <div className="px-3 pb-4 text-center">
                     <a
                       href={`https://wa.me/${phoneNumber}?text=Olá! Tenho interesse no produto: ${encodeURIComponent(product.name)}`}
@@ -311,8 +312,10 @@ export default function BeautySalon() {
       )}
       {zoomedProduct && (
         <div className="fixed inset-0 z-[99999] flex items-center justify-center bg-black/70 backdrop-blur-sm">
-          <div className="relative bg-white font-sans text-gray-900" style={{ overflowX: "hidden" }}>
-
+          <div
+            className="relative bg-white font-sans text-gray-900"
+            style={{ overflowX: "hidden" }}
+          >
             <button
               onClick={() => setZoomedProduct(null)}
               className="absolute right-3 top-2 text-xl text-gray-800 hover:text-red-500"
