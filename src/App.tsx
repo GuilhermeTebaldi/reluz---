@@ -195,9 +195,14 @@ export default function BeautySalon() {
       style={{ overflowX: "hidden" }}
     >
       <header className="fixed left-0 top-0 z-[9999] flex w-full items-center justify-between bg-white/30 px-6 py-3 shadow-sm backdrop-blur-md">
-        <h1 className="text-xl font-bold tracking-wide text-gray-800">
+        <motion.h1
+          initial={{ opacity: 0, x: -10 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="whitespace-nowrap bg-gradient-to-r from-yellow-500 via-amber-400 to-yellow-300 bg-clip-text font-serif text-[20px] font-light tracking-wide text-transparent md:text-[26px]"
+        >
           Reluz Estylos & Beleza
-        </h1>
+        </motion.h1>
         <div className="flex items-center gap-4 text-sm font-medium text-gray-800">
           <a
             href="https://www.instagram.com/reluz_estylo_e_beleza?igsh=MTVvbHRpbDMxN2o5ag=="
