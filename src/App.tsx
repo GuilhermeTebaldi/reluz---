@@ -196,12 +196,14 @@ export default function BeautySalon() {
     >
       <header className="fixed left-0 top-0 z-[9999] flex w-full items-center justify-between bg-white/30 px-6 py-3 shadow-sm backdrop-blur-md">
         <motion.h1
-          initial={{ opacity: 0, x: -10 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-          className="whitespace-nowrap bg-gradient-to-r from-yellow-500 via-amber-400 to-yellow-300 bg-clip-text font-serif text-[20px] font-light tracking-wide text-transparent md:text-[26px]"
+          initial={{ opacity: 0, y: -6 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, ease: "easeOut" }}
+          className="rounded-full border border-white/30 bg-white/50 px-4 py-[6px] font-serif text-[15px] font-medium tracking-[0.12em] text-gray-800 shadow-[0_2px_10px_rgba(255,255,255,0.2)] backdrop-blur-xl md:text-[18px]"
         >
-          Reluz Estylos & Beleza
+          <span className=" text-gray-900">Reluz</span>{" "}
+          <span className="italic text-yellow-600">Estylos</span>{" "}
+          <span className="font-light text-yellow-600">& Beleza</span>
         </motion.h1>
         <div className="flex items-center gap-4 text-sm font-medium text-gray-800">
           <a
