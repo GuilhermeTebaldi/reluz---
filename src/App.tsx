@@ -162,7 +162,7 @@ export default function BeautySalon() {
         </h1>
         <div className="flex items-center gap-4 text-sm font-medium text-gray-800">
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/reluz_estylo_e_beleza?igsh=MTVvbHRpbDMxN2o5ag=="
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline"
@@ -248,8 +248,8 @@ export default function BeautySalon() {
         </a>
       </section>
       {showProducts && (
-        <div className="fixed inset-0 z-[9999] flex flex-col bg-white/90 backdrop-blur-md">
-          <div className="flex justify-end p-4">
+        <div className="fixed inset-0 z-[9999] flex flex-col bg-white/100 backdrop-blur-md">
+          <div className="flex justify-end p-8">
             <button
               onClick={() => setShowProducts(false)}
               className="text-xl font-bold text-gray-800 transition hover:text-red-500"
@@ -313,7 +313,7 @@ export default function BeautySalon() {
           >
             <button
               onClick={() => setZoomedProduct(null)}
-              className="absolute right-3 top-2 text-xl text-gray-800 hover:text-red-500"
+              className="absolute right-4 top-4 text-xl text-gray-800 hover:text-red-500"
             >
               ✕
             </button>
@@ -322,7 +322,7 @@ export default function BeautySalon() {
               alt={zoomedProduct.name}
               className="max-h-[80vh] w-full rounded-t-lg object-cover"
             />
-            <div className="p-4 text-center font-medium text-gray-800">
+            <div className="p-8 text-center font-medium text-gray-800">
               {zoomedProduct.name}
             </div>
           </div>
