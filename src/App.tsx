@@ -201,7 +201,7 @@ export default function BeautySalon() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="text-center"
         >
-          <h1 className="font-serif text-[20px] leading-tight tracking-tight text-[#1a1a1a] md:text-[15px]">
+          <h1 className="font-serif text-[15px] leading-tight tracking-tight text-[#1a1a1a] md:text-[15px]">
             <span className="block">Reluz </span>
             <span className="mt-1 block font-light italic tracking-[0.12em] text-[#555]">
               Estylos & Beleza
