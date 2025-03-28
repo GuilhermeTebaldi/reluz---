@@ -218,14 +218,6 @@ export default function BeautySalon() {
           >
             Instagram
           </a>
-          <a
-            href="https://wa.me/5547999678478"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            WhatsApp
-          </a>
         </div>
       </header>
       <section
@@ -510,6 +502,14 @@ export default function BeautySalon() {
             <p>R. Campo Largo, 120</p>
             <p>Balneário Piçarras - SC, 88380-000</p>
           </div>
+          <a
+            href="https://wa.me/5547999678478"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            WhatsApp
+          </a>
         </motion.div>
 
         <div className="pointer-events-none absolute -top-10 right-10 h-32 w-32 rounded-full bg-yellow-300/10 blur-3xl"></div>
