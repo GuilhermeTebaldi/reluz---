@@ -250,8 +250,10 @@ export default function BeautySalon() {
         }}
       >
         <div className="absolute inset-0 bg-white/60 backdrop-blur-sm" />
-
-        <h2 className="relative z-10 mb-2 text-sm uppercase tracking-widest text-gray-600">
+        <h2 className="relative z-30 mb-2 text-sm uppercase tracking-widest text-gray-600">
+          .
+        </h2>
+        <h2 className="relative z-30 mb-2 text-sm uppercase tracking-widest text-gray-600">
           Estudio de Beleza
         </h2>
         <h1 className="relative z-10 mb-10 font-serif text-3xl font-bold text-black sm:text-4xl md:text-6xl">
