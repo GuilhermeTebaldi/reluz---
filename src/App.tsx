@@ -195,16 +195,20 @@ export default function BeautySalon() {
       style={{ overflowX: "hidden" }}
     >
       <header className="fixed left-0 top-0 z-[9999] flex w-full items-center justify-between bg-white/30 px-6 py-3 shadow-sm backdrop-blur-md">
-        <motion.h1
-          initial={{ opacity: 0, y: -6 }}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
-          className="rounded-full border border-white/30 bg-white/50 px-4 py-[6px] font-serif text-[15px] font-medium tracking-[0.12em] text-gray-800 shadow-[0_2px_10px_rgba(255,255,255,0.2)] backdrop-blur-xl md:text-[18px]"
+          transition={{ duration: 1, ease: "easeOut" }}
+          className="text-center"
         >
-          <span className=" text-gray-900">Reluz</span>{" "}
-          <span className="italic text-yellow-600">Estylos</span>{" "}
-          <span className="font-light text-yellow-600">& Beleza</span>
-        </motion.h1>
+          <h1 className="font-serif text-[20px] leading-tight tracking-tight text-[#1a1a1a] md:text-[22px]">
+            <span className="block">Reluz </span>
+            <span className="mt-1 block font-light italic tracking-[0.12em] text-[#555]">
+              Estylos & Beleza
+            </span>
+          </h1>
+          <p className="mx-auto mt-4 max-w-md text-sm font-light tracking-wide text-[#7b7b7b] md:text-base"></p>
+        </motion.div>
         <div className="flex items-center gap-4 text-sm font-medium text-gray-800">
           <a
             href="https://www.instagram.com/reluz_estylo_e_beleza?igsh=MTVvbHRpbDMxN2o5ag=="
