@@ -149,6 +149,46 @@ export default function BeautySalon() {
     "https://i.pinimg.com/474x/5c/4b/f6/5c4bf6afd332c7a7601e3939fea002c9.jpg",
     "https://i.pinimg.com/474x/f0/e0/eb/f0e0eb46994dc9bbc92246bd34ed304a.jpg",
     "https://i.pinimg.com/474x/65/35/85/653585a8f2383a91ae9ab01a8850a01b.jpg",
+    "https://i.pinimg.com/736x/41/8c/96/418c968fe43c2b02a41029e18e576449.jpg",
+    "https://i.pinimg.com/736x/ce/8f/3c/ce8f3c2f489feb20dbd8b381e0f40c86.jpg",
+    "https://i.pinimg.com/474x/31/89/6c/31896cd2eb81e6703c4c7aca96a277b6.jpg",
+    "https://i.pinimg.com/474x/05/e3/f0/05e3f049872eacc3a44615f2bc36f93a.jpg",
+    "https://i.pinimg.com/474x/1c/47/9a/1c479ae6014d3f646d59607e468f848a.jpg",
+    "https://i.pinimg.com/474x/7d/4f/e5/7d4fe55b363ff3218833a808bc06e88c.jpg",
+    "https://i.pinimg.com/474x/33/49/2b/33492ba636a8a5659384c16052f29189.jpg",
+    "https://i.pinimg.com/474x/5c/4b/f6/5c4bf6afd332c7a7601e3939fea002c9.jpg",
+    "https://i.pinimg.com/474x/f0/e0/eb/f0e0eb46994dc9bbc92246bd34ed304a.jpg",
+    "https://i.pinimg.com/474x/65/35/85/653585a8f2383a91ae9ab01a8850a01b.jpg",
+    "https://i.pinimg.com/736x/41/8c/96/418c968fe43c2b02a41029e18e576449.jpg",
+    "https://i.pinimg.com/736x/ce/8f/3c/ce8f3c2f489feb20dbd8b381e0f40c86.jpg",
+    "https://i.pinimg.com/474x/31/89/6c/31896cd2eb81e6703c4c7aca96a277b6.jpg",
+    "https://i.pinimg.com/474x/05/e3/f0/05e3f049872eacc3a44615f2bc36f93a.jpg",
+    "https://i.pinimg.com/474x/1c/47/9a/1c479ae6014d3f646d59607e468f848a.jpg",
+    "https://i.pinimg.com/474x/7d/4f/e5/7d4fe55b363ff3218833a808bc06e88c.jpg",
+    "https://i.pinimg.com/474x/33/49/2b/33492ba636a8a5659384c16052f29189.jpg",
+    "https://i.pinimg.com/474x/5c/4b/f6/5c4bf6afd332c7a7601e3939fea002c9.jpg",
+    "https://i.pinimg.com/474x/f0/e0/eb/f0e0eb46994dc9bbc92246bd34ed304a.jpg",
+    "https://i.pinimg.com/474x/65/35/85/653585a8f2383a91ae9ab01a8850a01b.jpg",
+    "https://i.pinimg.com/736x/41/8c/96/418c968fe43c2b02a41029e18e576449.jpg",
+    "https://i.pinimg.com/736x/ce/8f/3c/ce8f3c2f489feb20dbd8b381e0f40c86.jpg",
+    "https://i.pinimg.com/474x/31/89/6c/31896cd2eb81e6703c4c7aca96a277b6.jpg",
+    "https://i.pinimg.com/474x/05/e3/f0/05e3f049872eacc3a44615f2bc36f93a.jpg",
+    "https://i.pinimg.com/474x/1c/47/9a/1c479ae6014d3f646d59607e468f848a.jpg",
+    "https://i.pinimg.com/474x/7d/4f/e5/7d4fe55b363ff3218833a808bc06e88c.jpg",
+    "https://i.pinimg.com/474x/33/49/2b/33492ba636a8a5659384c16052f29189.jpg",
+    "https://i.pinimg.com/474x/5c/4b/f6/5c4bf6afd332c7a7601e3939fea002c9.jpg",
+    "https://i.pinimg.com/474x/f0/e0/eb/f0e0eb46994dc9bbc92246bd34ed304a.jpg",
+    "https://i.pinimg.com/474x/65/35/85/653585a8f2383a91ae9ab01a8850a01b.jpg",
+    "https://i.pinimg.com/736x/41/8c/96/418c968fe43c2b02a41029e18e576449.jpg",
+    "https://i.pinimg.com/736x/ce/8f/3c/ce8f3c2f489feb20dbd8b381e0f40c86.jpg",
+    "https://i.pinimg.com/474x/31/89/6c/31896cd2eb81e6703c4c7aca96a277b6.jpg",
+    "https://i.pinimg.com/474x/05/e3/f0/05e3f049872eacc3a44615f2bc36f93a.jpg",
+    "https://i.pinimg.com/474x/1c/47/9a/1c479ae6014d3f646d59607e468f848a.jpg",
+    "https://i.pinimg.com/474x/7d/4f/e5/7d4fe55b363ff3218833a808bc06e88c.jpg",
+    "https://i.pinimg.com/474x/33/49/2b/33492ba636a8a5659384c16052f29189.jpg",
+    "https://i.pinimg.com/474x/5c/4b/f6/5c4bf6afd332c7a7601e3939fea002c9.jpg",
+    "https://i.pinimg.com/474x/f0/e0/eb/f0e0eb46994dc9bbc92246bd34ed304a.jpg",
+    "https://i.pinimg.com/474x/65/35/85/653585a8f2383a91ae9ab01a8850a01b.jpg",
     "",
   ];
   return (
@@ -328,20 +368,68 @@ export default function BeautySalon() {
           </div>
         </div>
       )}
-      <section className="bg-white px-4 py-16">
-        <h2 className="mb-6 text-center text-2xl font-bold">
-          Veja alguns resultados reais
-        </h2>
-        <div className="w-full overflow-hidden">
+      <section className="relative overflow-hidden bg-white px-4 py-24 md:px-8">
+        <div className="mx-auto mb-12 max-w-5xl text-center">
+          <h2 className="text-3xl font-extrabold text-gray-800 md:text-4xl">
+            Resultados Reais e Transformadores
+          </h2>
+          <p className="mt-3 text-gray-600">
+            Fotos e vídeo direto da clínica — experiência real, sem filtros.
+          </p>
+        </div>
+
+        {/* Carrossel Superior */}
+        <div className="scrollbar-hide mb-8 w-full overflow-x-auto">
           <motion.div
-            className="flex gap-6"
+            className="flex gap-4 px-2 md:gap-6"
             animate={{ x: [0, -5000, 0] }}
             transition={{ repeat: Infinity, duration: 600, ease: "linear" }}
           >
             {procedimentos.map((src, index) => (
               <div
                 key={index}
-                className="h-[320px] min-w-[350px] overflow-hidden rounded-xl shadow-lg transition-transform hover:scale-105"
+                className="h-52 w-40 flex-shrink-0 overflow-hidden rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+              >
+                <img
+                  src={src}
+                  alt={`Procedimento ${index + 1}`}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            ))}
+          </motion.div>
+        </div>
+
+        {/* Vídeo Destaque */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="mx-auto max-w-xs rounded-3xl border border-white/30 bg-white/10 p-1 shadow-2xl ring-1 ring-neutral-200 backdrop-blur-xl md:max-w-md"
+        >
+          <div className="aspect-[9/16] overflow-hidden rounded-[1.5rem]">
+            <iframe
+              src="https://www.instagram.com/reel/DBT27jxxMUB/embed"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              allowFullScreen
+              loading="lazy"
+              className="h-full w-full rounded-[1.5rem]"
+            ></iframe>
+          </div>
+        </motion.div>
+
+        {/* Carrossel Inferior */}
+        <div className="scrollbar-hide mt-8 w-full overflow-x-auto">
+          <motion.div
+            className="flex gap-4 px-2 md:gap-6"
+            animate={{ x: [-5000, 0, -5000] }}
+            transition={{ repeat: Infinity, duration: 600, ease: "linear" }}
+          >
+            {procedimentos.reverse().map((src, index) => (
+              <div
+                key={index}
+                className="h-52 w-40 flex-shrink-0 overflow-hidden rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
               >
                 <img
                   src={src}
@@ -353,54 +441,37 @@ export default function BeautySalon() {
           </motion.div>
         </div>
       </section>
-      <section className="relative bg-white px-6 py-20 md:px-16">
-        <div className="mx-auto grid max-w-6xl items-center gap-16 md:grid-cols-2">
-          <div className="text-left">
-            <h2 className="mb-4 text-3xl font-bold text-gray-800">
-              Quais as{" "}
-              <span className="rounded bg-neutral-200 px-1 text-neutral-700">
-                diferenças
-              </span>{" "}
-              entre um <span className="italic">procedimento</span> e um{" "}
-              <span className="italic">tratamento</span>?
-            </h2>
 
-            <p className="text-lg leading-relaxed text-gray-600">
-              Isso pode ser essencial se você busca{" "}
-              <strong className="text-gray-800">
-                resultados realmente eficazes
-              </strong>
-              .
-            </p>
-          </div>
+      {/* Seção Final com botão e endereço */}
+      <section className="relative mt-24 bg-gradient-to-br from-yellow-50 via-white to-neutral-100 px-6 py-20">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+          className="text-center"
+        >
+          <h3 className="mb-6 text-2xl font-extrabold text-gray-800">
+            Sua experiência também pode ser 5 estrelas ✨
+          </h3>
 
-          <div className="overflow-hidden rounded-xl shadow-xl">
-            <img
-              src="https://i.pinimg.com/736x/ab/d0/91/abd09164d548729c96ce00242fbdde67.jpg"
-              alt="Estética profissional"
-              className="h-full w-full object-cover"
-            />
-          </div>
-        </div>
-        <div className="mt-12 text-center font-serif text-sm text-gray-400">
-          .
-        </div>
-        <div className="mt-12 text-center font-serif text-sm text-gray-400"></div>
-        <div className="mt-8 flex justify-center">
           <a
             href="https://g.co/kgs/fFbnXnm"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-lg border border-yellow-500 bg-white px-4 py-2 text-sm font-semibold text-yellow-600 transition hover:bg-yellow-100"
+            className="inline-flex items-center gap-3 rounded-full border border-yellow-400 bg-white/80 px-6 py-3 text-sm font-semibold text-yellow-700 shadow-xl backdrop-blur-md transition-transform hover:scale-105 hover:bg-yellow-100"
           >
-            ⭐⭐⭐⭐⭐ Ver avaliações e avaliar no Google
+            ⭐⭐⭐⭐⭐ Ver avaliações no Google
           </a>
-        </div>
 
-        <div className="mt-12 text-center font-serif text-sm text-gray-400">
-          Reluz Estylos & Beleza - R. Campo Largo, 120, Balneário Piçarras - SC,
-          88380-000
-        </div>
+          <div className="mx-auto mt-10 max-w-md rounded-2xl bg-white/40 px-6 py-4 font-serif text-sm text-gray-700 shadow-lg ring-1 ring-white/40 backdrop-blur-md">
+            <p>📍 Reluz Estylos & Beleza</p>
+            <p>R. Campo Largo, 120</p>
+            <p>Balneário Piçarras - SC, 88380-000</p>
+          </div>
+        </motion.div>
+
+        <div className="pointer-events-none absolute -top-10 right-10 h-32 w-32 rounded-full bg-yellow-300/10 blur-3xl"></div>
       </section>
     </div>
   );
