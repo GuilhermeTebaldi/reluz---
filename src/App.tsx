@@ -441,6 +441,38 @@ export default function BeautySalon() {
           </motion.div>
         </div>
       </section>
+      <section className="relative bg-white px-6 py-20 md:px-16">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
+          {/* Texto */}
+          <div className="text-center md:text-left">
+            <h2 className="mb-4 text-3xl font-bold text-gray-800">
+              Quais as{" "}
+              <span className="rounded bg-neutral-200 px-1 text-neutral-700">
+                diferenças
+              </span>{" "}
+              entre um <span className="italic">procedimento</span> e um{" "}
+              <span className="italic">tratamento</span>?
+            </h2>
+
+            <p className="text-lg leading-relaxed text-gray-600">
+              Isso pode ser essencial se você busca{" "}
+              <strong className="text-gray-800">
+                resultados realmente eficazes
+              </strong>
+              .
+            </p>
+          </div>
+
+          {/* Imagem responsiva */}
+          <div className="mx-auto w-full max-w-md overflow-hidden rounded-xl shadow-xl md:mx-0">
+            <img
+              src="https://i.pinimg.com/736x/ab/d0/91/abd09164d548729c96ce00242fbdde67.jpg"
+              alt="Estética profissional"
+              className="h-auto w-full rounded-xl object-cover"
+            />
+          </div>
+        </div>
+      </section>
 
       {/* Seção Final com botão e endereço */}
       <section className="relative mt-24 bg-gradient-to-br from-yellow-50 via-white to-neutral-100 px-6 py-20">
