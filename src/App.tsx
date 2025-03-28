@@ -225,6 +225,21 @@ export default function BeautySalon() {
               <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 3.25a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11zm0 1.5a4 4 0 1 0 0 8a4 4 0 0 0 0-8zm5.25-.5a1 1 0 1 1 0 2a1 1 0 0 1 0-2z" />
             </svg>
           </a>
+          <a
+            href="https://wa.me/5547999678478"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex h-9 w-9 items-center justify-center rounded-full bg-[#25D366] text-white shadow-md transition-transform hover:scale-105"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              className="h-5 w-5"
+            >
+              <path d="M20.52 3.48A11.93 11.93 0 0 0 12.01 0C5.38 0 .01 5.37.01 12a11.9 11.9 0 0 0 1.64 6.04L0 24l6.23-1.63a11.92 11.92 0 0 0 5.77 1.46h.01c6.63 0 12-5.37 12-12 0-3.2-1.25-6.21-3.49-8.35zM12.01 22a9.9 9.9 0 0 1-5.05-1.39l-.36-.21-3.7.97.99-3.6-.24-.37A9.91 9.91 0 0 1 2.01 12c0-5.51 4.48-10 10-10a9.9 9.9 0 0 1 7.07 2.93A9.91 9.91 0 0 1 22 12c0 5.52-4.49 10-10 10zm5.22-7.64c-.29-.15-1.72-.85-1.99-.95-.27-.1-.47-.15-.66.15s-.76.95-.93 1.14c-.17.2-.34.22-.63.07-.29-.15-1.23-.45-2.34-1.42-.86-.77-1.44-1.72-1.6-2.01-.17-.3-.02-.46.13-.61.14-.14.29-.34.44-.51.15-.17.2-.29.29-.48.1-.2.05-.37-.03-.52-.07-.15-.66-1.6-.91-2.2-.24-.58-.49-.5-.66-.51h-.56c-.2 0-.52.07-.79.37s-1.04 1.02-1.04 2.49 1.07 2.88 1.22 3.08c.15.2 2.11 3.21 5.1 4.51.71.31 1.27.5 1.7.63.71.22 1.35.19 1.86.12.57-.08 1.72-.7 1.97-1.38.24-.67.24-1.24.17-1.37-.07-.13-.26-.21-.55-.36z" />
+            </svg>
+          </a>
         </div>
       </header>
       <section
@@ -509,14 +524,6 @@ export default function BeautySalon() {
             <p>R. Campo Largo, 120</p>
             <p>Balneário Piçarras - SC, 88380-000</p>
           </div>
-          <a
-            href="https://wa.me/5547999678478"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            WhatsApp
-          </a>
         </motion.div>
 
         <div className="pointer-events-none absolute -top-10 right-10 h-32 w-32 rounded-full bg-yellow-300/10 blur-3xl"></div>
