@@ -399,7 +399,7 @@ export default function BeautySalon() {
             Resultados Reais e Transformadores
           </h2>
           <p className="mt-3 text-gray-600">
-            Fotos e vídeo direto da clínica — experiência real, sem filtros.
+            Fotos e vídeo direto do Salão — experiência real, sem filtros.
           </p>
         </div>
 
