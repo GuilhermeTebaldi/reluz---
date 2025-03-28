@@ -201,7 +201,7 @@ export default function BeautySalon() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="text-center"
         >
-          <h1 className="font-serif text-[20px] leading-tight tracking-tight text-[#1a1a1a] md:text-[22px]">
+          <h1 className="font-serif text-[20px] leading-tight tracking-tight text-[#1a1a1a] md:text-[15px]">
             <span className="block">Reluz </span>
             <span className="mt-1 block font-light italic tracking-[0.12em] text-[#555]">
               Estylos & Beleza
@@ -214,9 +214,16 @@ export default function BeautySalon() {
             href="https://www.instagram.com/reluz_estylo_e_beleza?igsh=MTVvbHRpbDMxN2o5ag=="
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-400 text-white shadow-md transition-transform hover:scale-105"
           >
-            Instagram
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              className="h-5 w-5"
+            >
+              <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 3.25a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11zm0 1.5a4 4 0 1 0 0 8a4 4 0 0 0 0-8zm5.25-.5a1 1 0 1 1 0 2a1 1 0 0 1 0-2z" />
+            </svg>
           </a>
         </div>
       </header>
