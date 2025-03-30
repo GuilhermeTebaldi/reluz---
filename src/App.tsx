@@ -257,7 +257,7 @@ export default function BeautySalon() {
           Estudio de Beleza
         </h2>
         <h1 className="relative z-10 mb-10 font-serif text-3xl font-bold text-black sm:text-4xl md:text-6xl">
-          Marli Aparecida
+          Marli Bitencourt
         </h1>
 
         <div className="relative z-20 mb-10 flex flex-wrap justify-center gap-6">
