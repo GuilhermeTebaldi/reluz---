@@ -151,31 +151,12 @@ export default function BeautySalon() {
     "https://i.pinimg.com/736x/b2/df/19/b2df19717881ad1aeeb71b2924495d88.jpg",
     "https://i.pinimg.com/736x/1c/14/db/1c14db725748f055632f43824e8d833a.jpg",
     "https://i.pinimg.com/474x/50/7d/6e/507d6ed567afc0a760d429993b98ded7.jpg",
-
-    "https://i.pinimg.com/736x/2e/dc/9c/2edc9c2a7970513392ac09aae9ec730e.jpg",
-    "https://i.pinimg.com/736x/00/6d/89/006d89a80335f05aab4a38601f90cf60.jpg",
-    "https://i.pinimg.com/736x/81/24/39/812439018605ab36258ab8912f54b187.jpg",
-    "https://i.pinimg.com/736x/18/0f/ef/180fef082f8e962e28b053e8ea0a5f92.jpg",
-    "https://i.pinimg.com/736x/41/8c/96/418c968fe43c2b02a41029e18e576449.jpg",
-    "https://i.pinimg.com/736x/ce/8f/3c/ce8f3c2f489feb20dbd8b381e0f40c86.jpg",
-    "https://i.pinimg.com/474x/31/89/6c/31896cd2eb81e6703c4c7aca96a277b6.jpg",
-    "https://i.pinimg.com/474x/05/e3/f0/05e3f049872eacc3a44615f2bc36f93a.jpg",
-    "https://i.pinimg.com/474x/1c/47/9a/1c479ae6014d3f646d59607e468f848a.jpg",
-    "https://i.pinimg.com/474x/7d/4f/e5/7d4fe55b363ff3218833a808bc06e88c.jpg",
-    "https://i.pinimg.com/474x/33/49/2b/33492ba636a8a5659384c16052f29189.jpg",
-    "https://i.pinimg.com/474x/5c/4b/f6/5c4bf6afd332c7a7601e3939fea002c9.jpg",
-    "https://i.pinimg.com/474x/f0/e0/eb/f0e0eb46994dc9bbc92246bd34ed304a.jpg",
-    "https://i.pinimg.com/474x/65/35/85/653585a8f2383a91ae9ab01a8850a01b.jpg",
-    "https://i.pinimg.com/736x/b6/73/1c/b6731c7d44b3d7081642c191e8ecbb43.jpg",
-    "https://i.pinimg.com/736x/12/3b/da/123bdaa302d893ead3a224088f710190.jpg",
-    "https://i.pinimg.com/736x/c7/e1/d8/c7e1d8d21ee0853a10ef339f4ebc6ee5.jpg",
-    "https://i.pinimg.com/736x/dd/3c/e3/dd3ce307b07a2778cef9e9fbb54bd1e3.jpg",
-    "https://i.pinimg.com/736x/40/9e/47/409e474bfe1e17040d7824477577afea.jpg",
-    "https://i.pinimg.com/736x/7d/50/41/7d50419d84d77d33d595efd55f976728.jpg",
-    "https://i.pinimg.com/736x/1e/76/29/1e7629ee09ca89ab3b7c791245c9519d.jpg",
-    "https://i.pinimg.com/736x/b2/df/19/b2df19717881ad1aeeb71b2924495d88.jpg",
-    "https://i.pinimg.com/736x/1c/14/db/1c14db725748f055632f43824e8d833a.jpg",
-    "https://i.pinimg.com/474x/50/7d/6e/507d6ed567afc0a760d429993b98ded7.jpg",
+    "https://i.pinimg.com/474x/eb/7c/a9/eb7ca959f7bd8902c4769870650cbc6c.jpg",
+    "https://i.pinimg.com/474x/90/67/71/906771daf279858d291fead3ead60ad7.jpg",
+    "https://i.pinimg.com/474x/06/f9/67/06f967bfab4e35fa93a902a1454bbf99.jpg",
+    "https://i.pinimg.com/474x/b8/79/23/b87923c7ff4e3735fdedc11474cbe9f8.jpg",
+    "https://i.pinimg.com/474x/fe/a3/21/fea32138428fe995c839ef9460d301ed.jpg",
+    "https://i.pinimg.com/474x/37/d9/be/37d9be9a50ec49f91e20ffec95126fbc.jpg",
   ];
   return (
     <div
@@ -479,7 +460,7 @@ export default function BeautySalon() {
           {/* Imagem responsiva */}
           <div className="mx-auto w-full max-w-md overflow-hidden rounded-xl shadow-xl md:mx-0">
             <img
-              src="https://i.pinimg.com/736x/17/35/50/1735500112a227c886d82544d154bb24.jpg"
+              src="https://i.pinimg.com/736x/d4/e5/e2/d4e5e2e2893b02e0c272d7f1c5cc909c.jpg"
               alt="Estética profissional"
               className="h-auto w-full rounded-xl object-cover"
             />
