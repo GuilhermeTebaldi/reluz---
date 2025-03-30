@@ -152,7 +152,6 @@ export default function BeautySalon() {
     "https://i.pinimg.com/736x/1c/14/db/1c14db725748f055632f43824e8d833a.jpg",
     "https://i.pinimg.com/474x/50/7d/6e/507d6ed567afc0a760d429993b98ded7.jpg",
 
-    "",
     "https://i.pinimg.com/736x/2e/dc/9c/2edc9c2a7970513392ac09aae9ec730e.jpg",
     "https://i.pinimg.com/736x/00/6d/89/006d89a80335f05aab4a38601f90cf60.jpg",
     "https://i.pinimg.com/736x/81/24/39/812439018605ab36258ab8912f54b187.jpg",
