@@ -491,7 +491,7 @@ export default function BeautySalon() {
           {/* Imagem responsiva */}
           <div className="mx-auto w-full max-w-md overflow-hidden rounded-xl shadow-xl md:mx-0">
             <img
-              src="https://i.pinimg.com/736x/ab/d0/91/abd09164d548729c96ce00242fbdde67.jpg"
+              src="https://i.pinimg.com/736x/17/35/50/1735500112a227c886d82544d154bb24.jpg"
               alt="Estética profissional"
               className="h-auto w-full rounded-xl object-cover"
             />
