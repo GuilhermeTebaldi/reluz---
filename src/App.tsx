@@ -157,6 +157,9 @@ export default function BeautySalon() {
     "https://i.pinimg.com/474x/b8/79/23/b87923c7ff4e3735fdedc11474cbe9f8.jpg",
     "https://i.pinimg.com/474x/fe/a3/21/fea32138428fe995c839ef9460d301ed.jpg",
     "https://i.pinimg.com/474x/37/d9/be/37d9be9a50ec49f91e20ffec95126fbc.jpg",
+    "https://i.pinimg.com/474x/1c/23/b3/1c23b33e611b6250e414de914ebf7549.jpg",
+    "https://i.pinimg.com/474x/0c/e6/6f/0ce66f6a65e21133203490d2a3716207.jpg",
+    "https://i.pinimg.com/474x/f4/7d/26/f47d26039330b9859f21b65b0ad35ca9.jpg",
   ];
   return (
     <div
