@@ -128,6 +128,9 @@ export default function BeautySalon() {
 
   const procedimentos = [
     "https://i.pinimg.com/736x/2e/dc/9c/2edc9c2a7970513392ac09aae9ec730e.jpg",
+    "https://i.pinimg.com/474x/40/9e/47/409e474bfe1e17040d7824477577afea.jpg",
+    "https://i.pinimg.com/474x/a8/9e/3c/a89e3cde81ec421ee497779d0ae85a42.jpg",
+    "https://i.pinimg.com/736x/2e/dc/9c/2edc9c2a7970513392ac09aae9ec730e.jpg",
     "https://i.pinimg.com/736x/00/6d/89/006d89a80335f05aab4a38601f90cf60.jpg",
     "https://i.pinimg.com/736x/81/24/39/812439018605ab36258ab8912f54b187.jpg",
     "https://i.pinimg.com/736x/18/0f/ef/180fef082f8e962e28b053e8ea0a5f92.jpg",
