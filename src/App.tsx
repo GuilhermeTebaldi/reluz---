@@ -285,6 +285,35 @@ export default function BeautySalon() {
               />
             </div>
           ))}
+          <motion.section
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="relative mt-16 w-full max-w-xl rounded-xl border border-yellow-300 bg-yellow-50 px-6 py-8 text-center shadow-lg backdrop-blur-sm"
+          >
+            <div className="absolute inset-0 z-0 rounded-xl bg-gradient-to-r from-yellow-100/30 via-white/30 to-yellow-100/30 blur-sm" />
+
+            <h3 className="relative z-10 text-xl font-bold text-yellow-900">
+              🌼 Especial Dia das Mães
+            </h3>
+
+            <p className="mt-2 text-yellow-800">Corte + Hidratação + Escova</p>
+
+            <p className="mb-4 mt-2 text-2xl font-extrabold text-yellow-700">
+              R$125,00
+            </p>
+
+            <motion.a
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              href="https://wa.me/5547999678478?text=Vim pelo site! Quero agendar o combo especial Dia das Mães!"
+              target="_blank"
+              className="relative z-10 inline-block rounded-full bg-yellow-600 px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-yellow-700"
+            >
+              Agendar agora
+            </motion.a>
+          </motion.section>
         </div>
 
         <motion.button
